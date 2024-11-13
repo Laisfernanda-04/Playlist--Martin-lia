@@ -1,0 +1,85 @@
+body {
+    color: white;
+    background: #5050a7;
+    margin: 20px;
+    font-family: "Playfair Display", serif;
+    margin-bottom: 100px;
+    }
+    
+    
+    header {
+        border-bottom: solid 3px white;
+        padding: 20px;
+        font-size: 32px;
+        color: white;
+    }
+    
+    
+    .chamada {
+    background: #383877;
+    padding-bottom:40px;
+    display: flex;
+    justify-content: center
+    }
+    
+    
+    .chamada-texto{
+        margin-right: 5%;
+    
+    }
+    
+    h1{
+        font-size: 40px;
+    
+    }
+    
+    P{
+        font-size: 20px;
+    }
+    
+    
+    
+    
+    .categorias-podcasts {
+        display: flex;
+        overflow-x: auto;
+        gap: 20px;
+    }
+    .categorias-podcasts{
+        padding-left: 10px;
+        padding-right: 10px;
+        margin-top: 20px;
+    }
+    
+    .categorias-podcasts img{
+        opacity: 0.5;
+        height: 200px;
+    } 
+    
+    .categorias-podcasts img:hover {
+     opacity: 1.0;
+     border: 1px solid white
+    }
+    
+    
+    .categorias-podcasts{
+        display: flex;
+        overflow-x: auto;
+        gap: 20px;
+    }
+    .categoria music{
+        padding-left: 20px;
+        padding-right: 20px;
+        margin-top: 50px;
+    }
+    
+    .categorias-podcasts img{
+        opacity: 0.5;
+        height: 200px;
+    } 
+    
+    .categorias-podcasts img:hover {
+     opacity: 1.0;
+     border: 1px solid white
+    }
+    
